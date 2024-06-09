@@ -11,7 +11,7 @@ const App = () => {
     <div>
        <Auth />
        {
-        isChecked?<p className="authText">You ar now authenticated.You can proceed</p>:<p className="authText">you are not authenticated</p>
+        isChecked?<p className="authText">You are now authenticated, you can proceed</p>:<p className="authText">you are not authenticated</p>
        }
       
     </div>
